@@ -4,6 +4,7 @@ namespace Gloudemans\Shoppingcart;
 namespace Gloudemans\Invoices;
 namespace Gloudemans\Cashback;
 namespace Gloudemans\Refund;
+namespace Gloudemans\Quotes;
 
 
 trait CanBeBought
