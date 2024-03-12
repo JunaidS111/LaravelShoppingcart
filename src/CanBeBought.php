@@ -29,6 +29,7 @@ trait CanBeBought
     {
         if(property_exists($this, 'name')) return $this->name;
         if(property_exists($this, 'title')) return $this->title;
+        if(property_exists($this, 'title')) return $this->job;
         if(property_exists($this, 'description')) return $this->description;
 
         return null;
